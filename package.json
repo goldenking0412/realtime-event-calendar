@@ -1,0 +1,28 @@
+{
+  "name": "realtime-calender",
+  "version": "1.0.0",
+  "description": "This is a realtime calender event app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencis": {
+    "body-parser": "*",
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "bootstrap": "^3.3.6"
+  },
+  "author": "amit ghosh",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "angular-moment-picker": "^0.10.1",
+    "express": "^4.15.2",
+    "moment": "^2.20.1",
+    "mongoose": "^4.13.9",
+    "socket.io": "^2.0.4"
+  }
+}
